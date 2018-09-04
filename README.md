@@ -2,6 +2,8 @@
 starting with the continuous integration of jenkins
 # JENKINS 
 
+![GitHub Logo](/images/logo.png)
+
 ## Que ofrece?
 
 Ofrece la integración continua 
