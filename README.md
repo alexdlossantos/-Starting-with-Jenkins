@@ -58,7 +58,7 @@ docker img (dockerfile)
 6. Realizar proyectos
 7. Pipelines
 
-### Paso 1:
+### Paso 1: Instalar Jenkins
 
        a) Entrar a jenkins
        b) Crear un directorio en var/conteiners/jenkins
@@ -69,7 +69,7 @@ docker img (dockerfile)
        e) Ver estado del contenedor
           docker logs -f
 
-### Paso 2:
+### Paso 2: Instalar plugins 
       a) Ingresar al dominio
          https://jenkins.ctin.amxdigital.net
       b) Configurar el proxy
