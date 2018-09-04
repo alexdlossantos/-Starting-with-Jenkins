@@ -30,17 +30,17 @@ Desde Jenkins podrás indicar que se lancen métricas de calidad y visualizar lo
 ## Uso:
 
 Existen 3 formas de desplegar aṕlicaciones en jenkins
-Despliegue de forma local
+1. Despliegue de forma local
             Manejo de archivos de la VM directamente  (manejo del sistema de archivos etc, var)
 
 ![figura1](https://user-images.githubusercontent.com/42847572/45058805-681e5480-b05f-11e8-95ad-ba2d25c7996c.png)
 
-Despliegue de forma remota
+2. Despliegue de forma remota
 Comunicarse con las máquinas virtuales a través de ssh
 
 ![figura2](https://user-images.githubusercontent.com/42847572/45058806-681e5480-b05f-11e8-86a9-c02c9e219f06.png)
 
-Despliegue por JNLP
+3. Despliegue por JNLP
 levantar
 conectar
 controlar de forma local
