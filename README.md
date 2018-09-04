@@ -6,11 +6,11 @@ starting with the continuous integration of jenkins
 
 ## Que ofrece?
 
-Ofrece la integración continua que es una práctica de desarrollo software donde los miembros del equipo integran su trabajo frecuentemente.
+Ofrece la integración continua que es una práctica de desarrollo de software donde los miembros del equipo integran su trabajo frecuentemente.
 
 Cada integración se verifica compilando el código fuente y obteniendo un ejecutable (a esto se le llama build, y debe hacerse de forma automatizada).Además también se pasan las pruebas y métricas de calidad para detectar los errores tan pronto como sea posible.
 
-Al integrar frecuentemente el código, y con la ayuda de herramientas como Jenkins, puedes saber el estado del software en todo momento. Sabes qué funciona, qué no y qué errores hay.
+Al integrar frecuentemente el código, y con la ayuda de herramientas como Jenkins, puedes saber el estado del software en todo momento. Saber qué funciona, qué no y qué errores hay.
 
 También puedes monitorizar la calidad del código y su cobertura de pruebas.
 
