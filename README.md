@@ -50,13 +50,13 @@ docker img (dockerfile)
 ![GitHub Logo](/images/logo.png)
 
 ## Pasos a seguir:
-Instalar jenkins
-instalar plugins
-Conectar jenkins con el API de docker
-Construir JNLP slaves
-Pruebas
-Realizar proyectos
-Pipelines
+1. Instalar jenkins
+2. instalar plugins
+3. Conectar jenkins con el API de docker
+4. Construir JNLP slaves
+5. Pruebas
+6. Realizar proyectos
+7. Pipelines
 
 ### Paso 1:
 
