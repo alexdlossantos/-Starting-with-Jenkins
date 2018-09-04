@@ -2,7 +2,7 @@
 starting with the continuous integration of jenkins
 # JENKINS 
 
-![jenkinslogo](https://user-images.githubusercontent.com/42847572/45058163-6b184580-b05d-11e8-81ea-d86a0cec693f.jpg)
+![logo](https://user-images.githubusercontent.com/42847572/45058899-b03d7700-b05f-11e8-8fa8-35256d339f5f.png)
 
 ## Que ofrece?
 
