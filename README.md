@@ -2,7 +2,7 @@
 starting with the continuous integration of jenkins
 # JENKINS 
 
-##Que ofrece?
+## Que ofrece?
 
 Ofrece la integración continua 
 La integración continua es una práctica de desarrollo software donde los miembros del equipo integran su trabajo frecuentemente.
@@ -13,7 +13,7 @@ Al integrar frecuentemente el código, y con la ayuda de herramientas como Jenki
 
 También puedes monitorizar la calidad del código y su cobertura de pruebas.
 
-##Qué es?
+## Qué es?
 
 Jenkins es un servidor de integración continua, gratuito, open-source y actualmente uno de los más empleados para esta función. 
 
@@ -26,19 +26,18 @@ Actúa como herramienta que sirve de enlace en todo el proceso de desarrollo.
 Desde Jenkins podrás indicar que se lancen métricas de calidad y visualizar los resultados dentro de la misma herramienta. También podrás ver el resultado de los tests, generar y visualizar la documentación del proyecto o incluso pasar una versión estable del software al entorno de QA para ser probado, a pre-producción o producción.
 
 
-##Uso:
+## Uso:
 
 Existen 3 formas de desplegar aṕlicaciones en jenkins
 Despliegue de forma local
             Manejo de archivos de la VM directamente  (manejo del sistema de archivos etc, var)
 
-
+![GitHub Logo](/images/logo.png)
 
 Despliegue de forma remota
 Comunicarse con las máquinas virtuales a través de ssh
 
-
-
+![GitHub Logo](/images/logo.png)
 
 Despliegue por JNLP
 levantar
@@ -48,9 +47,9 @@ compila
 lo guarda en zip
 docker img (dockerfile)
 
+![GitHub Logo](/images/logo.png)
 
-
-##Pasos a seguir:
+## Pasos a seguir:
 Instalar jenkins
 instalar plugins
 Conectar jenkins con el API de docker
@@ -59,7 +58,7 @@ Pruebas
 Realizar proyectos
 Pipelines
 
-###Paso 1:
+### Paso 1:
 
        a) Entrar a jenkins
        b) Crear un directorio en var/conteiners/jenkins
@@ -70,20 +69,18 @@ Pipelines
        e) Ver estado del contenedor
           docker logs -f
 
-###Paso 2:
+### Paso 2:
       a) Ingresar al dominio
          https://jenkins.ctin.amxdigital.net
       b) Configurar el proxy
           Servidor -> 10.0.202.7
           Puerto -> 80:80
-
-
       c) Seleccionar plugins
          (seleccionar todos los plugins que se desean instalar)
 
      d) Crear primer usuario 
 
-###Paso 3: Conectar con el Api docker
+### Paso 3: Conectar con el Api docker
 
      a) Dentro de jablab
      b) Dentro de build
@@ -102,7 +99,7 @@ systemctl stop firewall
 systemctl restart docker 
 
 
-###Paso 4: Construir JNLP slaves
+### Paso 4: Construir JNLP slaves
 
       a) Dentro de builder
       b) Crear un directorio 
