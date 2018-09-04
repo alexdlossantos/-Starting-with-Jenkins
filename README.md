@@ -93,10 +93,11 @@ docker img (dockerfile)
      e) Revisar
          netstat -pantu
 
-NOTA: En caso de que aparezca “No route to host” significa que esta prendida el firewally me esta bloqueando:
+**NOTA: En caso de que aparezca la leyenda “No route to host” significa que esta prendido el firewall y me esta bloqueando**
 
-systemctl stop firewall
-systemctl restart docker 
+**Solucion:**
+*systemctl stop firewall
+*systemctl restart docker 
 
 
 ### Paso 4: Construir JNLP slaves
@@ -107,19 +108,19 @@ systemctl restart docker
       c) Dentro de directorio, habra que descomprimir el archivo -->  slaves.tgr.gz
       d) Entrar a las carpetas:
 
-cd centos73_base
+      Entrar a --> centos73_base
 
-cd O_openjdk8
+      Entrar a --> O_openjdk8
 
-y dentro contruir el dokerfile
-docker build -t openjdk:8-jdk --build-arg http_proxy=http://10.0.202.7:8080 --build-arg https_proxy=https://10.0.202.7:8080 .
+      dentro contruir el dokerfile
+      docker build -t openjdk:8-jdk --build-arg http_proxy=http://10.0.202.7:8080 --build-arg  https_proxy=https://10.0.202.7:8080 .
 
-cd 1-openjdk8
-docker build -t jenkins/slave:3.16-1 --build-arg http_proxy=http://10.0.202.7:8080 --build-arg https_proxy=https://10.0.202.7:8080 .
+      Entrar a --> cd 1-openjdk8
+      docker build -t jenkins/slave:3.16-1 --build-arg http_proxy=http://10.0.202.7:8080 --build-arg https_proxy=https://10.0.202.7:8080 .
 
 
-cd 2-openjdk8.
-docker build -t ctin-slaves --build-arg http_proxy=http://10.0.202.7:8080 --build-arg https_proxy=https://10.0.202.7:8080 .
+      Entrar a --> cd 2-openjdk8.
+      docker build -t ctin-slaves --build-arg http_proxy=http://10.0.202.7:8080 --build-arg https_proxy=https://10.0.202.7:8080 .
 
 
 ### Paso 5: Configurar la nube (Decirle a jenkins como comunicarse con esclavos)
