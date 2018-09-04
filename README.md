@@ -34,12 +34,12 @@ Existen 3 formas de desplegar aṕlicaciones en jenkins
 Despliegue de forma local
             Manejo de archivos de la VM directamente  (manejo del sistema de archivos etc, var)
 
-![GitHub Logo](/images/logo.png)
+![figura1](https://user-images.githubusercontent.com/42847572/45058805-681e5480-b05f-11e8-95ad-ba2d25c7996c.png)
 
 Despliegue de forma remota
 Comunicarse con las máquinas virtuales a través de ssh
 
-![GitHub Logo](/images/logo.png)
+![figura2](https://user-images.githubusercontent.com/42847572/45058806-681e5480-b05f-11e8-86a9-c02c9e219f06.png)
 
 Despliegue por JNLP
 levantar
@@ -49,7 +49,7 @@ compila
 lo guarda en zip
 docker img (dockerfile)
 
-![GitHub Logo](/images/logo.png)
+![figura3](https://user-images.githubusercontent.com/42847572/45058808-681e5480-b05f-11e8-92be-ff06a2339c2e.png)
 
 ## Pasos a seguir:
 1. Instalar jenkins
