@@ -6,8 +6,7 @@ starting with the continuous integration of jenkins
 
 ## Que ofrece?
 
-Ofrece la integración continua 
-La integración continua es una práctica de desarrollo software donde los miembros del equipo integran su trabajo frecuentemente.
+Ofrece la integración continua que es una práctica de desarrollo software donde los miembros del equipo integran su trabajo frecuentemente.
 
 Cada integración se verifica compilando el código fuente y obteniendo un ejecutable (a esto se le llama build, y debe hacerse de forma automatizada).Además también se pasan las pruebas y métricas de calidad para detectar los errores tan pronto como sea posible.
 
