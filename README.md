@@ -122,18 +122,18 @@ cd 2-openjdk8.
 docker build -t ctin-slaves --build-arg http_proxy=http://10.0.202.7:8080 --build-arg https_proxy=https://10.0.202.7:8080 .
 
 
-###Paso 5: Configurar la nube (Decirle a jenkins como comunicarse con esclavos)
+### Paso 5: Configurar la nube (Decirle a jenkins como comunicarse con esclavos)
 
-a) Dentro de jenkins
-administrar jenkins/ configurar el sistem/ añadir una nueva nube
+      a) Dentro de jenkins
+         administrar jenkins/ configurar el sistem/ añadir una nueva nube
 
-Name: dockernube
-Docker HostURL: tcp://10.0.57.32:2376
-Conteiner cap:5
-Docker images:ctin slaves
-Connect method: conect with JNLP
-Jenkins URL: https://jenkins.ctin.amxdigital.net/
-Establecer un tunel a travez de:
-10.0.8.152:50000
-Label: workers
-Extrahosts: https://jenkins.ctin.amxdigital.net:10.0.8.204
+         Name: dockernube
+         Docker HostURL: tcp://10.0.57.32:2376
+         Conteiner cap:5
+         Docker images:ctin slaves
+         Connect method: conect with JNLP
+         Jenkins URL: https://jenkins.ctin.amxdigital.net/
+         Establecer un tunel a travez de:
+         10.0.8.152:50000
+         Label: workers
+         Extrahosts: https://jenkins.ctin.amxdigital.net:10.0.8.204
