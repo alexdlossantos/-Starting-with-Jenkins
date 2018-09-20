@@ -79,7 +79,14 @@ También ganamos gran visibilidad de los resultados a la hora de ver los logs. P
 Para acceder a los logs solo hay que situarse sobre el stage del que queramos consultaros y hacer un clic.
 
 ## Cuántos tipos de jobs existen? 
-8
+### 1. Free style
+### 2. Maven
+### 3. Pipeline
+### 4. External task
+### 5. Multiconfiguration
+### 6. MultiJob project
+### 7. Folder
+### 8. Multibranch pipeline
 
 ## Cuál es el uso de cada Job? 
 
