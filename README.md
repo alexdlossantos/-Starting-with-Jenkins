@@ -57,7 +57,57 @@ docker img (dockerfile)
 
 ![figura3](https://user-images.githubusercontent.com/42847572/45058808-681e5480-b05f-11e8-92be-ff06a2339c2e.png)
 
-## Pasos a seguir:
+## Cuál es la diferencia entre Job y pipeline?
+
+Existen 3 diferencias principalmente:
+
+### 1. Mantenibilidad
+El Job que compone nuestro flujo se almacena junto al código. Con ello, se vuelve mucho más mantenible, ya que es modificable por cualquier desarrollador que tenga acceso al repositorio.
+También ganamos todo el potencial que nos proporcionan Github, Bitbucket o cualquier herramienta similar, como ver el histórico de cambios, versionado del fichero…
+La mantenibilidad y versionado es uno de los principales pilares cuando hablamos de Pipelines, pero algunos ya teníamos esto sin necesidad de ellos.
+¿Qué ocurre si usamos un job típico de Jenkins, que llame a un script que a su vez ejecute cada uno de los comando necesarios de nuestro flujo? Que si almacenamos este script junto al código tenemos la misma mantenibilidad, control de versionado… que conseguimos con los Jobs.
+En los Jobs no sólo almacenamos comandos necesarios. A parte de esto, podemos añadir muchos más elementos como: gestión de credenciales, ficheros, uso de plugins… que antes pertenecían más a la propia configuración del job.
+
+### 2. Flexibilidad
+Jenkins ofrece gran variedad de plugins que ayudan con las tareas más comunes. Los pipelines son compatibles con la gran mayoría de ellos y nos aportan una gran mejoría.
+Al ser programáticos permiten controlar mejor los escenarios y añadir nuevas variantes que eran imposibles hasta ahora.
+Esto tiene un punto negativo. Muchas veces es mucho más engorroso definir una una tarea usando un plugin desde un Job, de lo que lo era usando el mismo plugin desde la interfaz de Jenkins.
+
+### 3. Visibilidad
+Ofrecen una visualización completa de forma atractiva e intuitiva dándonos un feedback rápido del proceso. De un vistazo puede detectarse si hay algún problema y en qué parte de nuestro pipeline ha sucedido.
+También ganamos gran visibilidad de los resultados a la hora de ver los logs. Podemos acceder a los de cada fase de forma individual sin tener que sumergirnos en los largos logs de salida de la consola. Gracias a esto ahorramos mucho tiempo a la hora localizar un error en la ejecución.
+Para acceder a los logs solo hay que situarse sobre el stage del que queramos consultaros y hacer un clic.
+
+## Cuántos tipos de jobs existen? 
+8
+
+## Cuál es el uso de cada Job? 
+
+### 1. Free style
+Ejecuta el proyecto combinando cualquier tipo de repositorio de software (SCM) con cualquier modo de construcción o ejecución (make, ant, mvn, rake, script ...). Por tanto se podrá tanto compilar y empaquetar software, como ejecutar cualquier proceso que requiera monitorización
+
+### 2. Maven
+Ejecuta un proyecto maven. Jenkins es capaz de aprovechar la configuracion presente en los ficheros POM, reduciendo drásticamente la configuración.
+
+### 3. Pipeline
+Orquesta actividades de larga ejecución que pueden abarcar múltiples agentes de compilación. Adecuado para la construcción de tuberías (anteriormente conocidas como flujos de trabajo) y / u organización de actividades complejas que no se ajustan fácilmente al tipo de trabajo de estilo libre.
+
+### 4. External task
+Este tipo de tarea permite registar la ejecución de procesos que se ejecutan externamente a Jenkins, incluso en máquinas remotas. Está diseñado para que puedas utilizar Jenkins como un panel de control para tus sistemas de automatización de procesos.
+
+### 5. Multiconfiguration
+Adecuado para proyectos que requieran un gran número de configuraciones diferentes, como testear en multiples entornos, ejecutar sobre plataformas concretas, etc.
+
+### 6. MultiJob project
+Proyecto MultiJob, adecuado para ejecutar otros trabajos
+
+### 7. Folder
+Crea un contenedor que almacena elementos anidados en él. Útil para agrupar cosas. A diferencia de la vista, que es solo un filtro, una carpeta crea un espacio de nombre separado, por lo que puede tener varias cosas del mismo nombre, siempre y cuando estén en diferentes carpetas.
+
+### 8. Multibranch pipeline
+Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un repositorio SCM.
+
+## Instalación ( Pasos a seguir) :
 1. Instalar jenkins
 2. instalar plugins
 3. Conectar jenkins con el API de docker
