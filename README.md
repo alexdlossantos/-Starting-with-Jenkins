@@ -26,6 +26,14 @@ Actúa como herramienta que sirve de enlace en todo el proceso de desarrollo.
 
 Desde Jenkins podrás indicar que se lancen métricas de calidad y visualizar los resultados dentro de la misma herramienta. También podrás ver el resultado de los tests, generar y visualizar la documentación del proyecto o incluso pasar una versión estable del software al entorno de QA para ser probado, a pre-producción o producción.
 
+## Cómo es la arquitectura de Jenkins?
+
+## 1)
+![diagrama-de-pasos-a-produccion](https://user-images.githubusercontent.com/42847572/45843360-060f5180-bce5-11e8-915e-7f4cb1023e5b.png)
+
+## 2)
+![jenkinsic](https://user-images.githubusercontent.com/42847572/45843362-060f5180-bce5-11e8-9191-e5e03ab1e947.png)
+
 ## Usos:
 
 Existen 3 formas de desplegar aṕlicaciones en jenkins
