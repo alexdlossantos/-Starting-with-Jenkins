@@ -203,3 +203,22 @@ Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un
          10.0.8.152:50000
          Label: workers
          Extrahosts: https://jenkins.ctin.amxdigital.net:10.0.8.204
+
+## Cómo verificar el funcionamiento de builder y slaves?
+
+
+## Qué opciones ocupamos al construir un job y un slave?
+
+
+## Qué comandos precompilación y  pos compilación existen? 
+
+
+## EJERCICIOS PROPUESTOS
+
+### 1. Intercambiar archivos entre esclavo - host
+### 2. Montar volúmenes entre el esclavo y el builder
+### 3. Como me traigo código () al interior del esclavo
+### 4. Traer codigo a git, modificarlo en el esclavo y enviarlo a jablab a través de ssh
+
+
+## Qué hacer si un job que clona un repositorio y hace un commit no funciona, como repararlo? 
