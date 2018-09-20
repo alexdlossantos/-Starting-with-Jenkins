@@ -4,19 +4,19 @@ starting with the continuous integration of jenkins
 
 ![logo](https://user-images.githubusercontent.com/42847572/45058899-b03d7700-b05f-11e8-8fa8-35256d339f5f.png)
 
-## Que ofrece?
-
-Ofrece la integración continua que es una práctica de desarrollo de software donde los miembros del equipo integran su trabajo frecuentemente.
-
-Cada integración se verifica compilando el código fuente y obteniendo un ejecutable (a esto se le llama build, y debe hacerse de forma automatizada).Además también se pasan las pruebas y métricas de calidad para detectar los errores tan pronto como sea posible.
-
-Al integrar frecuentemente el código, y con la ayuda de herramientas como Jenkins, puedes saber el estado del software en todo momento. Saber qué funciona, qué no y qué errores hay.
-
-También puedes monitorizar la calidad del código y su cobertura de pruebas.
-
 ## Qué es?
 
 Jenkins es un servidor de integración continua, gratuito, open-source y actualmente uno de los más empleados para esta función. 
+
+## Qué ofrece?
+
+Ofrece la integración continua que es una práctica de desarrollo de software donde los miembros del equipo integran su trabajo frecuentemente.
+
+## Cómo funciona?
+
+Cada integración se verifica compilando el código fuente y obteniendo un ejecutable (a esto se le llama build, y debe hacerse de forma automatizada).Además también se pasan las pruebas y métricas de calidad para detectar los errores tan pronto como sea posible.
+
+Al integrar frecuentemente el código, puedes saber el estado del software en todo momento. Saber qué funciona, qué no y qué errores hay. También puedes monitorizar la calidad del código y su cobertura de pruebas.
 
 La base de Jenkins son las tareas, donde indicamos qué es lo que hay que hacer en un build. Por ejemplo, podríamos programar una tarea en la que se compruebe el repositorio de control de versiones cada cierto tiempo, y cuando un desarrollador quiera subir su código al control de versiones, este se compile y se ejecuten las pruebas.
 
@@ -26,8 +26,7 @@ Actúa como herramienta que sirve de enlace en todo el proceso de desarrollo.
 
 Desde Jenkins podrás indicar que se lancen métricas de calidad y visualizar los resultados dentro de la misma herramienta. También podrás ver el resultado de los tests, generar y visualizar la documentación del proyecto o incluso pasar una versión estable del software al entorno de QA para ser probado, a pre-producción o producción.
 
-
-## Uso:
+## Usos:
 
 Existen 3 formas de desplegar aṕlicaciones en jenkins
 1. Despliegue de forma local
