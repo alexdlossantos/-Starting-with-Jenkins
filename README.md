@@ -276,6 +276,11 @@ Con estos pasos ya no existiria problema y el funcionamiento de builder y slaves
 18. **list-changes:**	Vuelca el registro de cambios para la (s) compilación (es) especificada (s).
 	
 
+## Qué hacer si un JOB que clona un repositorio y hace un commit no funciona, como repararlo? 
+Primero habria que revisar los 3 pilares principales para  la clonacion de un repositorio Git.
+1. Dentro del JOB en su apartado de configuración, tener la opción "Copy artifact" para permitir la clonacion que queremos realizar.
+2. Revisar nuestra credencial de identificación, dependiendo el tipo de identificacion que tengamos, habra que checar su funcionalidad.
+3. Revisar que el nombre y la dirección del repositorio que queremos clonar este escrito de una forma correcta.
 
 ## EJERCICIOS PROPUESTOS
 
@@ -289,4 +294,3 @@ Con estos pasos ya no existiria problema y el funcionamiento de builder y slaves
 ### Traer codigo a git, modificarlo en el esclavo y enviarlo a jablab a través de ssh
 
 
-## Qué hacer si un job que clona un repositorio y hace un commit no funciona, como repararlo? 
