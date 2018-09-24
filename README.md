@@ -224,7 +224,8 @@ Con estos pasos ya no existiria problema y el funcionamiento de builder y slaves
 ![sin titulo](https://user-images.githubusercontent.com/42847572/45972046-48e06a80-c000-11e8-8432-203492d5188e.png)
 3. Seleccionamos las opciones marcadas en la imagen para permitir el intercambio de archivos y decir en que esclavos queremos que se ejecute el JOB.
 ![sin titulo1](https://user-images.githubusercontent.com/42847572/45972048-48e06a80-c000-11e8-9471-0402614886a0.png)
-
+4. Una vez creado, se selecciona la opcion marcado en la imagen para lanzar el JOB 
+![sin titulo3](https://user-images.githubusercontent.com/42847572/45973340-cce82180-c003-11e8-8357-c06a2d823e0b.png)
 
 
 ## Qué comandos precompilación y  pos compilación existen? 
