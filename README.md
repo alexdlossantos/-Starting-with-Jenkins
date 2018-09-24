@@ -287,19 +287,21 @@ Primero habria que revisar los 3 pilares principales para  la clonacion de un re
 ### Intercambiar archivos entre esclavo - host
 1. Crear llave al usuario 
 
-
 ![1](https://user-images.githubusercontent.com/42847572/45977495-71bc2c00-c00f-11e8-9bb8-c68a214c0933.png)
 ![42418533_2605503206126568_8069394670372782080_n](https://user-images.githubusercontent.com/42847572/45977523-87315600-c00f-11e8-9ebc-f510cb3f7bf6.jpg)
 ![42423972_248035505886981_3277495603776454656_n](https://user-images.githubusercontent.com/42847572/45977524-87315600-c00f-11e8-840f-4ab5c58a2c6c.jpg)
-![42424638_951669061692168_5733904738865381376_n](https://user-images.githubusercontent.com/42847572/45977525-87315600-c00f-11e8-8b04-dfb530975e57.jpg)
+
 ![42435057_2251285385102168_1094791493077434368_n](https://user-images.githubusercontent.com/42847572/45977526-87315600-c00f-11e8-9079-adf3a2491394.jpg)
-![42438098_724844567881486_806122386016436224_n](https://user-images.githubusercontent.com/42847572/45977527-87c9ec80-c00f-11e8-9dec-146df18a6a84.jpg)
+
 ![42457848_2219829604757964_7974911046332710912_n](https://user-images.githubusercontent.com/42847572/45977528-87c9ec80-c00f-11e8-862f-2df6e2a83de7.jpg)
 ![42467792_532891263802697_6503517910000992256_n](https://user-images.githubusercontent.com/42847572/45977529-87c9ec80-c00f-11e8-9311-3eb5c062ace9.jpg)
-![42474108_2156408711294228_6778669487966126080_n](https://user-images.githubusercontent.com/42847572/45977531-87c9ec80-c00f-11e8-9eea-c4fedd32233b.jpg)
 ![42562193_236092503736654_1579592712661762048_n](https://user-images.githubusercontent.com/42847572/45977532-88628300-c00f-11e8-81f8-0d542e417d63.jpg)
 
 2. Configurar la opción ssh en Jenkins
+![42474108_2156408711294228_6778669487966126080_n](https://user-images.githubusercontent.com/42847572/45977531-87c9ec80-c00f-11e8-9eea-c4fedd32233b.jpg)
+![42424638_951669061692168_5733904738865381376_n](https://user-images.githubusercontent.com/42847572/45977525-87315600-c00f-11e8-8b04-dfb530975e57.jpg)
+![42438098_724844567881486_806122386016436224_n](https://user-images.githubusercontent.com/42847572/45977527-87c9ec80-c00f-11e8-9dec-146df18a6a84.jpg)
+
 3. Configurar la opcion ssh dentro de la configuración del JOB
 
 ### Como me traigo código al interior del esclavo
