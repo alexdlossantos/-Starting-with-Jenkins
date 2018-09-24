@@ -213,8 +213,8 @@ Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un
 ## Qué comandos precompilación y  pos compilación existen? 
 ### Precompilación
 
-**create-view:**	Crea una nueva vista leyendo stdin como una configuración XML.
-**create-node:**	Crea un nuevo nodo leyendo stdin como una configuración XML.
+**create-view:**	Crea una nueva vista leyendo stdin como una configuración XML. &nbsp;
+**create-node:**	Crea un nuevo nodo leyendo stdin como una configuración XML.&nbsp;
 **create-job:**          Crea un nuevo trabajo leyendo stdin como un archivo XML de configuración.
 **create-credentials-domain-by-xml:**	Crear credenciales de dominio por XML
 **create-credentials-by-xml:**	Crear Credencial por XML
