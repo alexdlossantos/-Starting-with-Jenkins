@@ -242,17 +242,14 @@ Con estos pasos ya no existiria problema y el funcionamiento de builder y slaves
 9. **enable-plugin:**	Permite uno o más complementos instalados de forma transitiva.
 10. **get-credentials-as-xml:**	Obtenga una credencial como XML (secretos redactados)
 11. **get-credentials-domain-as-xml:**	Obtener un dominio de credenciales como XML
-12. **get-job:**	Vuelca la definición de trabajo XML a stdout.
-13. **get-node:**	Vuelca la definición de nodo XML a stdout.
-14. **get-view:**	Vuelca la definición de vista XML a stdout.
-15. **set-build-parameter:**	Actualiza / establece el parámetro de compilación de la compilación actual en progreso. [obsoleto]
-16. **update-credentials-by-xml:**	Actualizar credenciales por XML
-17. **update-credentials-domain-by-xml:**	Actualizar credenciales de dominio por XML
-18. **update-job:**	Actualiza la definición del trabajo XML de stdin. Lo opuesto al comando get-job.
-19. **update-node:**	Actualiza la definición del nodo XML de stdin. Lo opuesto al comando get-node.
-20. **update-view:**	Actualiza la definición de vista XML desde stdin. Lo opuesto al comando get-view.
-21. **wait-node-offline:**	Espere a que un nodo esté fuera de línea.
-22. **set-build-result:**	Establece el resultado de la compilación actual. Funciona solo si se invoca desde una compilación.
+12. **set-build-parameter:**	Actualiza / establece el parámetro de compilación de la compilación actual en progreso
+13. **update-credentials-by-xml:**	Actualizar credenciales por XML
+14. **update-credentials-domain-by-xml:**	Actualizar credenciales de dominio por XML
+15. **update-job:**	Actualiza la definición del trabajo XML de stdin. Lo opuesto al comando get-job.
+16. **update-node:**	Actualiza la definición del nodo XML de stdin. Lo opuesto al comando get-node.
+17. **update-view:**	Actualiza la definición de vista XML desde stdin. Lo opuesto al comando get-view.
+18. **wait-node-offline:**	Espere a que un nodo esté fuera de línea.
+19. **set-build-result:**	Establece el resultado de la compilación actual. Funciona solo si se invoca desde una compilación.
 
 ### Poscompilación
 
@@ -273,7 +270,10 @@ Con estos pasos ya no existiria problema y el funcionamiento de builder y slaves
 15. **replay-pipeline:**	Reproducir una compilación de Pipeline con un guión editado tomado de una entrada estándar
 16. **remove-job-from-view:**	Elimina los trabajos de la vista.
 17. **reload-job:**	Recargar trabajo (s)
-18. **list-changes:**	Vuelca el registro de cambios para la (s) compilación (es) especificada (s).
+18. **list-changes:**	Devuelve el registro de cambios para la (s) compilación (es) especificada (s).
+19. **get-job:**	Devuelve la definición de trabajo XML a stdout.
+20. **get-node:**	Devuelve la definición de nodo XML a stdout.
+21. **get-view:**	Devuelve la definición de vista XML a stdout.
 	
 
 ## Qué hacer si un JOB que clona un repositorio y hace un commit no funciona, como repararlo? 
