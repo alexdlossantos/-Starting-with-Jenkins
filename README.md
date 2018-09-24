@@ -285,12 +285,13 @@ Primero habria que revisar los 3 pilares principales para  la clonacion de un re
 ## EJERCICIOS PROPUESTOS
 
 ### Intercambiar archivos entre esclavo - host
-### Montar volúmenes entre el esclavo y el builder
 ### Como me traigo código al interior del esclavo
 1. Una vez creado el JOB, dentro de el, en el apartado de configuracion, seleccionaremos la opcion marcado en la immagen para poder añadir el repositorio de git que queremos enviar, despues de esto habra que guardar los cambio y lanzar de nuevo el JOB.
 ![sin titulo2](https://user-images.githubusercontent.com/42847572/45974262-7c25f800-c006-11e8-8bb5-e76e5bbbe8fa.png)
 2. Al término del lanzamiento del JOB, dentro de este, seleccionaremos la opcion "CONSOLE OUTPUT" para visualizar que se realizó de una forma correcta como en la siguiente imagen.
 ![2](https://user-images.githubusercontent.com/42847572/45974261-7c25f800-c006-11e8-9a6c-7355511ce57a.png)
+
+### Montar volúmenes entre el esclavo y el builder
 ### Traer codigo a git, modificarlo en el esclavo y enviarlo a jablab a través de ssh
 
 
