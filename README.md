@@ -28,10 +28,10 @@ Desde Jenkins podrás indicar que se lancen métricas de calidad y visualizar lo
 
 ## Cómo es la arquitectura de Jenkins?
 
-## 1)
+## 1) Ejemplo:
 ![diagrama-de-pasos-a-produccion](https://user-images.githubusercontent.com/42847572/45843360-060f5180-bce5-11e8-915e-7f4cb1023e5b.png)
 
-## 2)
+## 2) Ejemplo:
 ![jenkinsic](https://user-images.githubusercontent.com/42847572/45843362-060f5180-bce5-11e8-9191-e5e03ab1e947.png)
 
 ## Usos:
@@ -285,7 +285,7 @@ Primero habria que revisar los 3 pilares principales para  la clonacion de un re
 ## EJERCICIOS PROPUESTOS
 
 ### Intercambiar archivos entre esclavo - host
-1. Crear llave al usuario 
+1. Crear llave al usuario:
 Estando en el menu principal de jenkins, seleccionaremos la opcion "Credencials"
 ![1](https://user-images.githubusercontent.com/42847572/45977495-71bc2c00-c00f-11e8-9bb8-c68a214c0933.png)
 Una vez dentro de la opción, podremos visualizar las llaves existentes, nos posicionaremos en la principal y seleccionaremos la opcion, "añadir credencial"
@@ -296,7 +296,7 @@ Seleccionamos el tipo de llave ssh y llenamos todos los campos con su respectiva
 ![4](https://user-images.githubusercontent.com/42847572/45978279-8e596380-c011-11e8-850c-d339a092deda.jpg)
 ![5](https://user-images.githubusercontent.com/42847572/45978280-8e596380-c011-11e8-800b-e55d79739005.jpg)
 Con esto quedará creada nuestra nueva credencial que se ocupará mas adelante
-2. Configurar la opción ssh en Jenkins
+2. Configurar la opción ssh en Jenkins:
 Situados nuevamente en el menu principal de Jenkins, seleccionaremos la opción "Manage Jenkins"
 ![6](https://user-images.githubusercontent.com/42847572/45978281-8ef1fa00-c011-11e8-84f7-4b28200538c9.jpg)
 Ahora se nos presentara otro menu, en esta ocación seleccionaremos la opción "Configure system"
@@ -312,7 +312,7 @@ Una vez realizado esto estará establecida nuestra configuraci+on en Jenkins
 
 Situados dentro del Job que creamos, nos vamos a la opcion "Configuración"
 ![sin titulo4](https://user-images.githubusercontent.com/42847572/45980469-b350d500-c017-11e8-91c4-aee7a6397b09.png)
-Dentro del apartado configuración buscaremos la opción "" y la habilitaremos, dentro de esta colocaremos el nombre del archivo que queremos enviar, asi como el nombre del servidor, y si es que queremos ejecutar algun comando cuando se lance el JOB.
+Dentro del apartado configuración buscaremos la opción "Send files or execute commands over SSH before the build starts" y la habilitaremos, dentro de esta colocaremos el nombre del archivo que queremos enviar, asi como el nombre del servidor, y si es que queremos ejecutar algun comando cuando se lance el JOB.
 ![ultima](https://user-images.githubusercontent.com/42847572/45980846-b5fffa00-c018-11e8-9ea3-9d224587d50c.png)
 Una vez guardados los cambios, lanzaremos el JOB, cuando termine iremos al partado "CONSOLE OUTPUT" y visualizaremos que el archivo se envio correctamente.
 ![sin titulo 3png](https://user-images.githubusercontent.com/42847572/45980468-b350d500-c017-11e8-9b49-3009d18d29c1.png)
