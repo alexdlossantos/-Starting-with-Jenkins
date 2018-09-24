@@ -213,27 +213,28 @@ Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un
 ## Qué comandos precompilación y  pos compilación existen? 
 ### Precompilación
 
-**create-view:**	Crea una nueva vista leyendo stdin como una configuración XML. &nbsp;
-**create-node:**	Crea un nuevo nodo leyendo stdin como una configuración XML.&nbsp;
-**create-job:**          Crea un nuevo trabajo leyendo stdin como un archivo XML de configuración.
-**create-credentials-domain-by-xml:**	Crear credenciales de dominio por XML
-**create-credentials-by-xml:**	Crear Credencial por XML
-**copy-job:**	Copia un trabajo.
-**build:**	Crea un trabajo y, opcionalmente, espera hasta su finalización.
-**enable-job:**	Habilita un trabajo.
-**enable-plugin:**	Permite uno o más complementos instalados de forma transitiva.
-**get-credentials-as-xml:**	Obtenga una credencial como XML (secretos redactados)
-**get-credentials-domain-as-xml:**	Obtener un dominio de credenciales como XML
-**get-job:**	Vuelca la definición de trabajo XML a stdout.
-**get-node:**	Vuelca la definición de nodo XML a stdout.
-**get-view:**	Vuelca la definición de vista XML a stdout.
-**set-build-parameter:**	Actualiza / establece el parámetro de compilación de la compilación actual en progreso. [obsoleto]
-**update-credentials-by-xml:**	Actualizar credenciales por XML
-**update-credentials-domain-by-xml:**	Actualizar credenciales de dominio por XML
-**update-job:**	Actualiza la definición del trabajo XML de stdin. Lo opuesto al comando get-job.
-**update-node:**	Actualiza la definición del nodo XML de stdin. Lo opuesto al comando get-node.
-**update-view:**	Actualiza la definición de vista XML desde stdin. Lo opuesto al comando get-view.
-**wait-node-offline:**	Espere a que un nodo esté fuera de línea.
+1. **create-view:**	Crea una nueva vista leyendo stdin como una configuración XML. &nbsp;
+2. **create-node:**	Crea un nuevo nodo leyendo stdin como una configuración XML.&nbsp;
+3. **create-job:**          Crea un nuevo trabajo leyendo stdin como un archivo XML de configuración.
+4. **create-credentials-domain-by-xml:**	Crear credenciales de dominio por XML
+5. **create-credentials-by-xml:**	Crear Credencial por XML
+6. **copy-job:**	Copia un trabajo.
+7. **build:**	Crea un trabajo y, opcionalmente, espera hasta su finalización.
+8. **enable-job:**	Habilita un trabajo.
+9. **enable-plugin:**	Permite uno o más complementos instalados de forma transitiva.
+10. **get-credentials-as-xml:**	Obtenga una credencial como XML (secretos redactados)
+11. **get-credentials-domain-as-xml:**	Obtener un dominio de credenciales como XML
+12. **get-job:**	Vuelca la definición de trabajo XML a stdout.
+13. **get-node:**	Vuelca la definición de nodo XML a stdout.
+14. **get-view:**	Vuelca la definición de vista XML a stdout.
+15. **set-build-parameter:**	Actualiza / establece el parámetro de compilación de la compilación actual en progreso. [obsoleto]
+16. **update-credentials-by-xml:**	Actualizar credenciales por XML
+17. **update-credentials-domain-by-xml:**	Actualizar credenciales de dominio por XML
+18. **update-job:**	Actualiza la definición del trabajo XML de stdin. Lo opuesto al comando get-job.
+19. **update-node:**	Actualiza la definición del nodo XML de stdin. Lo opuesto al comando get-node.
+20. **update-view:**	Actualiza la definición de vista XML desde stdin. Lo opuesto al comando get-view.
+21. **wait-node-offline:**	Espere a que un nodo esté fuera de línea.
+22. **set-build-result:**	Establece el resultado de la compilación actual. Funciona solo si se invoca desde una compilación.
 
 ### Poscompilación
 
@@ -248,14 +249,13 @@ Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un
 9. **connect-node:**	Vuelva a conectar a un nodo (s)
 10. **console:**	Recupera la salida de consola de una compilación.
 11. **who-am-i:**	Informa tu credencial y permisos.
-**set-external-build-result:**	Establezca el resultado del trabajo del monitor externo.
-**set-build-result:**	Establece el resultado de la compilación actual. Funciona solo si se invoca desde una compilación. [obsoleto]
-**set-build-display-name:**	Establece la displayName de una compilación.
-**set-build-description:**	Establece la descripción de una construcción.
-**replay-pipeline:**	Reproducir una compilación de Pipeline con un guión editado tomado de una entrada estándar
-**remove-job-from-view:**	Elimina los trabajos de la vista.
-**reload-job:**	Recargar trabajo (s)
-**list-changes:**	Vuelca el registro de cambios para la (s) compilación (es) especificada (s).
+12. **set-external-build-result:**	Establezca el resultado del trabajo del monitor externo. 
+13. **set-build-display-name:**	Establece la displayName de una compilación.
+14. **set-build-description:**	Establece la descripción de una construcción.
+15. **replay-pipeline:**	Reproducir una compilación de Pipeline con un guión editado tomado de una entrada estándar
+16. **remove-job-from-view:**	Elimina los trabajos de la vista.
+17. **reload-job:**	Recargar trabajo (s)
+18. **list-changes:**	Vuelca el registro de cambios para la (s) compilación (es) especificada (s).
 	
 
 
