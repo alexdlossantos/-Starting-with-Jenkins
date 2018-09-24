@@ -286,11 +286,13 @@ Primero habria que revisar los 3 pilares principales para  la clonacion de un re
 
 ### Intercambiar archivos entre esclavo - host
 1. Crear llave al usuario 
-
+Estando en el menu principal de jenkins, seleccionaremos la opcion "Credencials"
 ![1](https://user-images.githubusercontent.com/42847572/45977495-71bc2c00-c00f-11e8-9bb8-c68a214c0933.png)
-![42424638_951669061692168_5733904738865381376_n](https://user-images.githubusercontent.com/42847572/45977525-87315600-c00f-11e8-8b04-dfb530975e57.jpg)
+Una vez dentro de la opción, podremos visualizar las llaves existentes, nos posicionaremos en la principal y seleccionaremos la opcion, "añadir credencial"
 ![2](https://user-images.githubusercontent.com/42847572/45978277-8e596380-c011-11e8-90ca-e8d5092d14fd.jpg)
+Una vez dentro, se podra visualizar un formulario a llenar con la información que queremos para la nueva credencial
 ![3](https://user-images.githubusercontent.com/42847572/45978278-8e596380-c011-11e8-9d8d-bbbc0c5e43d9.jpg)
+Seleccionamos el tipo de llave ssh y llenamos todos los campos con su respectiva información
 ![4](https://user-images.githubusercontent.com/42847572/45978279-8e596380-c011-11e8-850c-d339a092deda.jpg)
 ![5](https://user-images.githubusercontent.com/42847572/45978280-8e596380-c011-11e8-800b-e55d79739005.jpg)
 
