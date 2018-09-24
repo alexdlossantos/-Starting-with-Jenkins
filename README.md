@@ -312,7 +312,8 @@ Una vez realizado esto estará establecida nuestra configuraci+on en Jenkins
 
 Situados dentro del Job que creamos, nos vamos a la opcion "Configuración"
 ![sin titulo4](https://user-images.githubusercontent.com/42847572/45980469-b350d500-c017-11e8-91c4-aee7a6397b09.png)
-
+Dentro del apartado configuración buscaremos la opción "" y la habilitaremos, dentro de esta colocaremos el nombre del archivo que queremos enviar, asi como el nombre del servidor, y si es que queremos ejecutar algun comando cuando se lance el JOB.
+![ultima](https://user-images.githubusercontent.com/42847572/45980846-b5fffa00-c018-11e8-9ea3-9d224587d50c.png)
 Una vez guardados los cambios, lanzaremos el JOB, cuando termine iremos al partado "CONSOLE OUTPUT" y visualizaremos que el archivo se envio correctamente.
 ![sin titulo 3png](https://user-images.githubusercontent.com/42847572/45980468-b350d500-c017-11e8-9b49-3009d18d29c1.png)
 De esta forma queda completado el envió de archivos
