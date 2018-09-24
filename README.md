@@ -295,13 +295,18 @@ Una vez dentro, se podra visualizar un formulario a llenar con la información q
 Seleccionamos el tipo de llave ssh y llenamos todos los campos con su respectiva información
 ![4](https://user-images.githubusercontent.com/42847572/45978279-8e596380-c011-11e8-850c-d339a092deda.jpg)
 ![5](https://user-images.githubusercontent.com/42847572/45978280-8e596380-c011-11e8-800b-e55d79739005.jpg)
-
+Con esto quedará creada nuestra nueva credencial que se ocupará mas adelante
 2. Configurar la opción ssh en Jenkins
+Situados nuevamente en el menu principal de Jenkins, seleccionaremos la opción "Manage Jenkins"
 ![6](https://user-images.githubusercontent.com/42847572/45978281-8ef1fa00-c011-11e8-84f7-4b28200538c9.jpg)
+Ahora se nos presentara otro menu, en esta ocación seleccionaremos la opción "Configure system"
 ![7](https://user-images.githubusercontent.com/42847572/45978282-8ef1fa00-c011-11e8-8634-fe7c74e7ee4b.jpg)
+Dentro de ese apartado, buscaremos la opción "SSH remote hosts", lo habilitamos y llenamos los campos correspondientes. Tendremos que colocar el nombre del host al que se va a conectar, asi como el puerto por el cual lo hará y la credencial que creamos anteriormente.
 ![8](https://user-images.githubusercontent.com/42847572/45978283-8ef1fa00-c011-11e8-97fa-3be983e88eff.jpg)
+Seguiremos bajando hasta localizar la opción "Publish over SSH" en donde colocaremos la llave privada del usuario dentro del servidor al que queremos conectarnos, asi como el nombre del servidor
 ![9](https://user-images.githubusercontent.com/42847572/45978284-8ef1fa00-c011-11e8-8d1f-47e15e7c32c7.jpg)
 ![10](https://user-images.githubusercontent.com/42847572/45978285-8ef1fa00-c011-11e8-8919-cd3cd0b1c546.jpg)
+Una vez realizado esto estará establecida nuestra configuraci+on en Jenkins
 
 3. Configurar la opcion ssh dentro de la configuración del JOB
 
