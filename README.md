@@ -208,6 +208,10 @@ Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un
 
 
 ## Qué opciones ocupamos al construir un job y un slave?
+1. Dentro de jenkins seleccionamos la opcion new item
+2. Una vez dentro de esta opcion, escribiremos el nombre de nuestro Job y seleccionaremos "Freestyle project"
+![sin titulo](https://user-images.githubusercontent.com/42847572/45970338-da99a900-bffb-11e8-9afe-26b7c097447b.png)
+
 
 
 ## Qué comandos precompilación y  pos compilación existen? 
