@@ -210,18 +210,18 @@ netstat-pantu
 Marcará el siguiente error "NO ROUTE TO HOST"
 Lo que en realidad nos esta diciendo es que el firewall esta prendido y nos esta bloqueando
 A lo que se deberá realizar lo siguiente:
-1. Detener el firewall
+1. Detener el firewall: 
 *systemctl stop firewall*
-2. Reiniciar Docker
+2. Reiniciar Docker: 
 *systemctl restart docker*
 
 Con estos pasos ya no existiria problema y el funcionamiento de builder y slaves, sería el correcto.
 
 ## Qué opciones ocupamos al construir un job y un slave?
 1. Dentro de jenkins seleccionamos la opcion new item
-![sin titulo](https://user-images.githubusercontent.com/42847572/45972046-48e06a80-c000-11e8-8432-203492d5188e.png)
-2. Una vez dentro de esta opcion, escribiremos el nombre de nuestro Job y seleccionaremos "Freestyle project"
 ![sin titulo0](https://user-images.githubusercontent.com/42847572/45972047-48e06a80-c000-11e8-94af-71f690857070.png)
+2. Una vez dentro de esta opcion, escribiremos el nombre de nuestro Job y seleccionaremos "Freestyle project"
+![sin titulo](https://user-images.githubusercontent.com/42847572/45972046-48e06a80-c000-11e8-8432-203492d5188e.png)
 3. Seleccionamos las opciones marcadas en la imagen para permitir el intercambio de archivos y decir en que esclavos queremos que se ejecute el JOB.
 ![sin titulo1](https://user-images.githubusercontent.com/42847572/45972048-48e06a80-c000-11e8-9471-0402614886a0.png)
 
