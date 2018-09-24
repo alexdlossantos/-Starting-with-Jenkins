@@ -310,6 +310,12 @@ Una vez realizado esto estará establecida nuestra configuraci+on en Jenkins
 
 3. Configurar la opcion ssh dentro de la configuración del JOB
 
+Situados dentro del Job que creamos, nos vamos a la opcion "Configuración"
+
+![sin titulo2](https://user-images.githubusercontent.com/42847572/45980196-ed6da700-c016-11e8-8fc7-a6b7e85b41c2.png)
+![sin titulo3](https://user-images.githubusercontent.com/42847572/45980197-ed6da700-c016-11e8-8b2f-35a4caa4d0b6.png)
+
+
 ### Como me traigo código al interior del esclavo
 1. Una vez creado el JOB, dentro de el, en el apartado de configuracion, seleccionaremos la opcion marcado en la immagen para poder añadir el repositorio de git que queremos enviar, despues de esto habra que guardar los cambio y lanzar de nuevo el JOB.
 ![sin titulo2](https://user-images.githubusercontent.com/42847572/45974262-7c25f800-c006-11e8-8bb5-e76e5bbbe8fa.png)
