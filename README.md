@@ -211,6 +211,52 @@ Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un
 
 
 ## Qué comandos precompilación y  pos compilación existen? 
+### Precompilación
+
+create-view:	Crea una nueva vista leyendo stdin como una configuración XML.
+create-node:	Crea un nuevo nodo leyendo stdin como una configuración XML.
+create-job:             Crea un nuevo trabajo leyendo stdin como un archivo XML de configuración.
+create-credentials-domain-by-xml:	Crear credenciales de dominio por XML
+create-credentials-by-xml:	Crear Credencial por XML
+copy-job:	Copia un trabajo.
+build:	Crea un trabajo y, opcionalmente, espera hasta su finalización.
+enable-job:	Habilita un trabajo.
+enable-plugin:	Permite uno o más complementos instalados de forma transitiva.
+get-credentials-as-xml:	Obtenga una credencial como XML (secretos redactados)
+get-credentials-domain-as-xml:	Obtener un dominio de credenciales como XML
+get-job:	Vuelca la definición de trabajo XML a stdout.
+get-node:	Vuelca la definición de nodo XML a stdout.
+get-view:	Vuelca la definición de vista XML a stdout.
+set-build-parameter:	Actualiza / establece el parámetro de compilación de la compilación actual en progreso. [obsoleto]
+update-credentials-by-xml:	Actualizar credenciales por XML
+update-credentials-domain-by-xml:	Actualizar credenciales de dominio por XML
+update-job:	Actualiza la definición del trabajo XML de stdin. Lo opuesto al comando get-job.
+update-node:	Actualiza la definición del nodo XML de stdin. Lo opuesto al comando get-node.
+update-view:	Actualiza la definición de vista XML desde stdin. Lo opuesto al comando get-view.
+wait-node-offline:	Espere a que un nodo esté fuera de línea.
+
+### Poscompilación
+
+delete-builds:	Elimina registro (s) de compilación.
+delete-credentials:	Eliminar una credencial
+delete-credentials-domain:	Eliminar un dominio de credenciales
+delete-job:	Elimina trabajo (s).
+delete-node:	Elimina nodo (s)
+delete-view:	Elimina vista (s).
+disable-job:	Desactiva un trabajo.
+disconnect-node:	Se desconecta de un nodo.
+connect-node:	Vuelva a conectar a un nodo (s)
+console:	Recupera la salida de consola de una compilación.
+who-am-i:	Informa tu credencial y permisos.
+set-external-build-result:	Establezca el resultado del trabajo del monitor externo.
+set-build-result:	Establece el resultado de la compilación actual. Funciona solo si se invoca desde una compilación. [obsoleto]
+set-build-display-name:	Establece la displayName de una compilación.
+set-build-description:	Establece la descripción de una construcción.
+replay-pipeline:	Reproducir una compilación de Pipeline con un guión editado tomado de una entrada estándar
+remove-job-from-view:	Elimina los trabajos de la vista.
+reload-job:	Recargar trabajo (s)
+list-changes:	Vuelca el registro de cambios para la (s) compilación (es) especificada (s).
+	
 
 
 ## EJERCICIOS PROPUESTOS
