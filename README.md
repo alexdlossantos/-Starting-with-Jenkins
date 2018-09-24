@@ -237,17 +237,17 @@ Crea un conjunto de proyectos Pipeline de acuerdo con las ramas detectadas en un
 
 ### Poscompilación
 
-**delete-builds:**	Elimina registro (s) de compilación.
-**delete-credentials:**	Eliminar una credencial
-**delete-credentials-domain:**	Eliminar un dominio de credenciales
-**delete-job:**	Elimina trabajo (s).
-**delete-node:**	Elimina nodo (s)
-**delete-view:**	Elimina vista (s).
-**disable-job:**	Desactiva un trabajo.
-**disconnect-node:**	Se desconecta de un nodo.
-**connect-node:**	Vuelva a conectar a un nodo (s)
-**console:**	Recupera la salida de consola de una compilación.
-**who-am-i:**	Informa tu credencial y permisos.
+1. **delete-builds:**	Elimina registro (s) de compilación.
+2. **delete-credentials:**	Eliminar una credencial
+3. **delete-credentials-domain:**	Eliminar un dominio de credenciales
+4. **delete-job:**	Elimina trabajo (s).
+5. **delete-node:**	Elimina nodo (s)
+6. **delete-view:**	Elimina vista (s).
+7. **disable-job:**	Desactiva un trabajo.
+8. **disconnect-node:**	Se desconecta de un nodo.
+9. **connect-node:**	Vuelva a conectar a un nodo (s)
+10. **console:**	Recupera la salida de consola de una compilación.
+11. **who-am-i:**	Informa tu credencial y permisos.
 **set-external-build-result:**	Establezca el resultado del trabajo del monitor externo.
 **set-build-result:**	Establece el resultado de la compilación actual. Funciona solo si se invoca desde una compilación. [obsoleto]
 **set-build-display-name:**	Establece la displayName de una compilación.
