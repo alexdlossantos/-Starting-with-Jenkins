@@ -292,6 +292,12 @@ Primero habria que revisar los 3 pilares principales para  la clonacion de un re
 ![2](https://user-images.githubusercontent.com/42847572/45974261-7c25f800-c006-11e8-9a6c-7355511ce57a.png)
 
 ### Montar volúmenes entre el esclavo y el builder
-### Traer codigo a git, modificarlo en el esclavo y enviarlo a jablab a través de ssh
+
+## Ejemplo práctico
+El equipo de Claro Cobras pide realizar ajustes al código de su página principal utilizando la tarea jenkins. 
+El esclavo debe traer el código del siguiente repositorio.........y modificar el archivo "index.html" para modificar el nombre de la marca de "ClaroCobras" a "Claro Cobras". 
+Una vez que se realice la modificación del código, el esclavo debe enviar el sitio (el conjunto de HTMLs) al servidor JABLAB donde hay un vhost configurado ....... en el directorio ....... y debe verse la modificación realizada al interior del esclavo
+Nol olvidar que debe recargar la configuración de nginx mediante el comando : *nginx -s reload* al interior de JABLAB
+
 
 
