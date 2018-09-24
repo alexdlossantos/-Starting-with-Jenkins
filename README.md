@@ -311,9 +311,11 @@ Una vez realizado esto estará establecida nuestra configuraci+on en Jenkins
 3. Configurar la opcion ssh dentro de la configuración del JOB
 
 Situados dentro del Job que creamos, nos vamos a la opcion "Configuración"
+![sin titulo4](https://user-images.githubusercontent.com/42847572/45980469-b350d500-c017-11e8-91c4-aee7a6397b09.png)
 
-![sin titulo2](https://user-images.githubusercontent.com/42847572/45980196-ed6da700-c016-11e8-8fc7-a6b7e85b41c2.png)
-![sin titulo3](https://user-images.githubusercontent.com/42847572/45980197-ed6da700-c016-11e8-8b2f-35a4caa4d0b6.png)
+Una vez guardados los cambios, lanzaremos el JOB, cuando termine iremos al partado "CONSOLE OUTPUT" y visualizaremos que el archivo se envio correctamente.
+![sin titulo 3png](https://user-images.githubusercontent.com/42847572/45980468-b350d500-c017-11e8-9b49-3009d18d29c1.png)
+De esta forma queda completado el envió de archivos
 
 
 ### Como me traigo código al interior del esclavo
