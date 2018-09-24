@@ -285,6 +285,11 @@ Primero habria que revisar los 3 pilares principales para  la clonacion de un re
 ## EJERCICIOS PROPUESTOS
 
 ### Intercambiar archivos entre esclavo - host
+1. Crear llave al usuario 
+
+2. Configurar la opción ssh en Jenkins
+3. Configurar la opcion ssh dentro de la configuración del JOB
+
 ### Como me traigo código al interior del esclavo
 1. Una vez creado el JOB, dentro de el, en el apartado de configuracion, seleccionaremos la opcion marcado en la immagen para poder añadir el repositorio de git que queremos enviar, despues de esto habra que guardar los cambio y lanzar de nuevo el JOB.
 ![sin titulo2](https://user-images.githubusercontent.com/42847572/45974262-7c25f800-c006-11e8-8bb5-e76e5bbbe8fa.png)
